@@ -28,6 +28,7 @@ namespace Assignment2API.Models
         }
         
         public DbSet<CreditCardBrand> CreditCardBrands { get; set; }
+        public DbSet<Payment> Payments { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
