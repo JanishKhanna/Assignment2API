@@ -15,6 +15,6 @@ namespace Assignment2API.Models.Domain.BindingModel
         [Required]
         public string CreditCardNumber { get; set; }
         [Required]
-        public string SecurityCode { get; set; }
+        public string SecurityCode { get; set; }  
     }
 }

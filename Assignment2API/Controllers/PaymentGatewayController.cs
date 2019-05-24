@@ -27,7 +27,7 @@ namespace Assignment2API.Controllers
         {
             var brand = DbContext.CreditCardBrands.FirstOrDefault(p => p.IdentificationNumber == identificationNum);
 
-            if(brand == null)
+            if (brand == null)
             {
                 return NotFound();
             }
